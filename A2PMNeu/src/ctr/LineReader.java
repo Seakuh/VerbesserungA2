@@ -12,11 +12,11 @@ public class LineReader implements Iterable<String>{
 
 	
 	public LineReader(Reader in) throws IOException {
-		System.out.println("In LineReader");
+		//System.out.println("In LineReader");
 		reader = new BufferedReader(in);
 		it = new IteratorReader(reader);
 	}
-		
+		 
 	
 	@Override
 	public Iterator<String> iterator() {
